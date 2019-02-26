@@ -4,7 +4,7 @@
 
 \def\labauthors{Виноградов И.Д., Шиков А.П.}
 \def\labgroup{430}
-\def\labnumber{7}
+\def\labnumber{2}
 \def\labtheme{Измерение импедансов и коэффициентов отражения}
 \input{text/titlepage}
 
@@ -58,14 +58,14 @@ $\textbf{E}^+,\textbf{H}^+$ - распростроняющиеся в полож
 \end{equation}
 Эти функции в общем случае называют условными напряжением и током. В данной работе будет использоваться коаксиальная
 линия передач, поэтому можно вкратце описать получение таких токов и напряжений для оаксиальной линии.
-\begin{center}
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[width = 0.5\linewidth]{example-image-a}
-        \label{fig:1}
-        \caption{Поперечное сечение коаксиальной ЛП}
-    \end{figure}
-\end{center}
+% \begin{center}
+%     \begin{figure}[h!]
+%         \centering
+%         \includegraphics[width = 0.5\linewidth]{example-image-a}
+%         \label{fig:1}
+%         \caption{Поперечное сечение коаксиальной ЛП}
+%     \end{figure}
+% \end{center}
 В цилиндрической системе коорднат будем иметь компоненты полей: 
 \begin{equation}
     E_r = \frac{A}{r} e^{iw(t-\frac{z}{v})},~~ H_{\varphi} = \frac{E_r}{\eta}
@@ -230,7 +230,7 @@ $$\textbf{КСВ}: K = \frac{U_{max}}{U_{min}}$$
     \centering
     \begin{tabular}{l|l|l|l|l|l|l|l}
        Тип нагрузки  & $z^0_{min}$, см & $\Delta z_{min}$, см & $I_{min}$ & $I_{max}$ & K &  $Z_H$ & $\Gamma$ \\ \hline
-       Свободный &   23.8   &   6.25    &   4 ($\rightarrow 0$)  &   160   &  $\infty$ &   28.87$i$ & $\Gamma$  \\ \hline
+       Свободный &   23.8   &   6.25    &   4 ($\rightarrow 0$)  &   160   &  $\infty$ &   28.87$i$ &  \\ \hline
        Замкнутый &   23.8   &   3    &   2 ($\rightarrow 0$)   &   168   &  $\infty$  &  -153.89$i$  & -0.97  
     \end{tabular}
 \end{table}
@@ -263,7 +263,7 @@ $\Delta Z \simeq \textcolor{red}{41 \%}$
     \centering
     \begin{tabular}{l|l|l|l|l|l|l|l}
        Тип нагрузки  & $z^0_{min}$, см & $\Delta z_{min}$, см & $I_{min}$ & $I_{max}$ & K &  $Z_H$  & $\Gamma$\\ \hline
-    Свободный &   23.8   &   3.5    &   4 ($\rightarrow 0$)  &   162   &  $\infty$ &  -475.7$i$ & 0.97 \\ \hline
+    Свободный &   23.8   &   3.5    &   4 ($\rightarrow 0$)  &   162   &  $\infty$ &  -475.7$i$ & \\ \hline
     Замкнутый &   23.8   &   0.3    &   5 ($\rightarrow 0$)   &   136   &  $\infty$    &  -6.3$i$ & -0.97 
     \end{tabular}
 \end{table}
@@ -274,7 +274,7 @@ $\Delta Z \simeq \textcolor{red}{41 \%}$
 \begin{table}[H]
     \centering
     \begin{tabular}{l|l|l|l|l|l|l|l}
-       Тип нагрузки  & $z^0_{min}$, см & $\Delta z_{min}$, см & $I_{min}$ & $I_{max}$ & K &  $Z_H$ & $\Gamma$ \\ \hline
+       Тип нагрузки  & $z^0_{min}$, см & $\Delta z_{min}$, см & $I_{min}$ & $I_{max}$ & K &  $Z_H$ &  \\ \hline
     Активное сопротивление &   23.8   &   1.9    &   10  &   80   &  2.4 & 35.7-36.1$i$ & 0.008 \\ 
     \end{tabular}
 \end{table}
@@ -293,8 +293,8 @@ $\Delta Z \simeq \textcolor{red}{41 \%}$
     \centering
     \begin{tabular}{l|l|l|l|l|l|l|l}
        $f$,ГГц  & $z^0_{min}$, см & $\Delta z_{min}$, см & $I_{min}$ & $I_{max}$ & K &  $Z_H$ & $\Gamma$  \\ \hline
-    2 &   23.8   &   5.9    &   2 ($\rightarrow 0$)  &   155   &  $\infty$ &  & $\Gamma$  \\ \hline
-    2.015 &   16.45   &   -1.75    &   2 ($\rightarrow 0$)   &   35   &  $\infty$ ??    &   & $\Gamma$ 
+    2 &   23.8   &   5.9    &   2 ($\rightarrow 0$)  &   155   &   &  &  \\ \hline
+    2.015 &   16.45   &   -1.75    &   2 ($\rightarrow 0$)   &   35   &     &   & 
     \end{tabular}
 \end{table}
 
